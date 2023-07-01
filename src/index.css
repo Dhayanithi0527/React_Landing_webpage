@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image:url(ecommerce-online-shop-euro.jpg)       
+ }
+a{
+    color: white;
+}
+h3{
+    text-align: center;
+    font-weight:bolder;
+}
+a{
+    text-decoration: none;
+}        
+ul{
+
+  padding: 15px;
+
+}
+.Search{
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer; 
+    background-color:white; 
+}
+.Login{ 
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer; 
+    background-color:white;  
+}
+.head{
+width: 90px; 
+height: 25px;
+border-radius: 15px;
+cursor: pointer;
+background-color: rgb(245, 245, 241);
+}
+li{
+display: inline-block;
+padding: 15px;
+
+margin-right: 40px;
+ }
+input{
+   margin-left: 450px;
+   border-radius: 30px;
+   margin-top: 180px;
+   width: 500px;
+   height: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
